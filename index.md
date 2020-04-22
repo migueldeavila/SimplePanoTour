@@ -1,0 +1,1 @@
+Simple tour created using krpano 1.20.6
