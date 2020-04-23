@@ -129,6 +129,7 @@
 	        />
 	
 	<action name="skin_webvr_onavailable" scope="local">
+		removelayer(webvr_enterbutton);
 		<!-- update the skin buttons to add the skin vr button -->
 		skin_arrange_buttons();
 			
