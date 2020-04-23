@@ -1,1 +1,1 @@
-"Simple tour created using krpano" 
+Simple tour created using krpano
