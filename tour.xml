@@ -124,8 +124,8 @@
 			<cube url="panos/3.tiles/vr/pano_%t_%s.jpg" />
 		</image>
 		
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="114.146" atv="13.608" linkedscene="scene_2" onclick="loadscene(scene_2, null, MERGE, BLEND(1));" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="143.333" atv="3.570" linkedscene="scene_6" onclick="loadscene(scene_6, null, MERGE, BLEND(1));"/>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="114.146" atv="13.608" linkedscene="scene_2" onclick="loadscene(scene_2, null, MERGE, NOBLEND);" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="143.333" atv="3.570" linkedscene="scene_6" onclick="loadscene(scene_6, null, MERGE, NOBLEND);"/>
 
 	</scene>
 
