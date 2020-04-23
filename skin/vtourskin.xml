@@ -105,7 +105,7 @@
 	        onavailable="skin_webvr_onavailable();"
 	        onentervr="skin_showloading(false); webvr_onentervr(); skin_webvr_setup(); skin_reloadscene_webvr();"
 	        onexitvr="webvr_onexitvr(); skin_webvr_setup(); skin_reloadscene_webvr();"
-	        />
+	        -->
 	
 	<!-- webvr button style (adjust to match skin style) -->
 	<style name="webvr_button_style"
