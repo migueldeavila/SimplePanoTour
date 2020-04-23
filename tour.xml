@@ -72,6 +72,7 @@
 
 	<!-- startup action - load the first scene -->
 	<action name="startup" autorun="onstart">
+		set(webvr.fullscreen_mirroring,"true");
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
