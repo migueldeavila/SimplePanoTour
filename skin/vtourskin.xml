@@ -100,14 +100,12 @@
 	<include url="%VIEWER%/plugins/webvr.xml" devices="html5" />
 	
 	<!-- overwrite some settings from the webvr.xml for the skin integration -->
-	<!--plugin name="webvr" keep="true" devices="html5.and.webgl"
+	<plugin name="webvr" keep="true" devices="html5.and.webgl"
 	        url="calc:skin_settings.webvr == true ? '%VIEWER%/plugins/webvr.js' : null"
 	        onavailable="skin_webvr_onavailable();"
-	        onentervr="skin_showloading(false); webvr_onentervr(); skin_webvr_setup(); skin_reloadscene_webvr();"
+	        onentervr="skin_showloading(false); webvr_onentervr(); skin_webvr_setup();"
 	        onexitvr="webvr_onexitvr(); skin_webvr_setup(); skin_reloadscene_webvr();"
-	        -->
-			
-	<plugin name="webvr" keep="true"/>
+	        />
 	
 	<!-- webvr button style (adjust to match skin style) -->
 	<style name="webvr_button_style"
